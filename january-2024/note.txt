@@ -1,0 +1,257 @@
+---------------------------------------------------------------------------
+Smart Contracts Chainlink Bootcamp 2024
+LUMA: https://lu.ma/ig70bk68
+GitHub: https://github.com/solangegueiros/chainlink-bootcamp-2024
+#BootcampChainlink2024
+---------------------------------------------------------------------------
+Slides: https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000&slide=id.g2acdc1ce0f8_0_0
+Task form: https://docs.google.com/forms/d/e/1FAIpQLSeI_6QFddw3qMD50RC6guihcaGBJPENCBTLCAJKWvj04jnm0w/viewform
+
+Chainlink Faucets: https://faucets.chain.link/
+Sepolia Miner: https://sepolia-faucet.pk910.de/
+Alchemy Faucets: https://www.alchemy.com/faucets
+
+Blockchain Hash: https://andersbrownworth.com/blockchain/hash
+Blockchain Block: https://andersbrownworth.com/blockchain/block
+
+------------------------------------------------------------
+## Aula 1 - https://www.youtube.com/watch?v=mH2hkWG6OS8
+------------------------------------------------------------
+https://pad.riseup.net/p/cl-pt-01
+
+Metamask Address: 0xE5435Db2b26a59083788cA861e7f86CF7338CF64
+Transfer from/to: https://sepolia.etherscan.io/tx/0xc29d319dc3954a496ca00fc4f97532ff23410944272d143808ad0e88670524b0
+
+------------------------------------------------------------
+## Aula 2 - https://www.youtube.com/watch?v=VaXAPYXSdGc
+------------------------------------------------------------
+https://pad.riseup.net/p/cl-pt-02
+
+Register Contract Address: 
+- Transaction: https://sepolia.etherscan.io/tx/0xed61a6aa4e5c1ffd28ca403f123937b1552a63643662e722334d0fd06a29382a
+- Contract Address: https://sepolia.etherscan.io/address/0x03d2d2e00aac6bcb17300eedd89eb6802cc7abfd
+
+Register Access Address:
+- Contract Address: https://sepolia.etherscan.io/address/0xbe3910bb6777b8fcdee9db9c117ec437bb9d3582
+
+------------------------------------------------------------
+## Aula 3 - https://www.youtube.com/watch?v=fi1Hkc3sS5U
+------------------------------------------------------------
+https://pad.riseup.net/p/cl-pt-03
+https://remix.ethereum.org/#version=soljson-v0.8.21+commit.d9974bed.js&optimize=false&runs=200&gist=&lang=en&evmVersion=null
+
+Token - https://sepolia.etherscan.io/address/0x0ef12570a96bc77dcecbc0b0d62f271d377a9cf3:
+- Address: 0x0ef12570A96BC77DCECbc0B0d62f271D377A9cF3
+
+TokenShop: https://sepolia.etherscan.io/address/0xf758810ccc9f3e1f80817bda16e21243ee27c35f
+- Address: 0xF758810ccC9f3e1F80817bDA16E21243EE27c35f
+
+-----
+1. Allow on token contract the contract of TokenShop: 
+MINTER_ROLE: 0x9f2df0fed2c77648de5860a4cc508cd0818c85b8b8a1ab4ceeef8d981c8956a6
+Address: 0xF758810ccC9f3e1F80817bDA16E21243EE27c35f
+Transaction: https://sepolia.etherscan.io/tx/0x960e8df97fecafdaaf7fc7ea2c1713c1baca2a9b554df6bf1a6787f54d487c29
+
+2. (Optional) Mint tokens if you wanna
+
+3. In your Metamask wallet, send ETH to the TokenShop address, so, TokenShop will mint tokens 
+to you based on your based on ETH/USD current value
+- https://sepolia.etherscan.io/tx/0xc8dd3da9dcb0dfc801ee75658462e54dec5b08d8afad739cf19e0feae85feac3
+----
+
+Chainlink:
+https://data.chain.link/
+
+https://docs.chain.link/
+
+https://docs.chain.link/data-feeds
+
+https://docs.chain.link/data-feeds/price-feeds/addresses?network=ethereum&page=1#sepolia-testnet
+
+
+Token ERC20:
+https://ethereum.org/en/developers/docs/standards/tokens/
+
+https://eips.ethereum.org/EIPS/eip-20
+
+------------------------------------------------------------
+## Aula 4 - https://www.youtube.com/watch?v=qpymWhQUDOQ
+------------------------------------------------------------
+https://pad.riseup.net/p/cl-pt-04
+https://remix.ethereum.org/#version=soljson-v0.8.21+commit.d9974bed.js&optimize=false&runs=200&gist=&lang=en&evmVersion=null
+
+Slides: https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+
+Tarefas: https://forms.gle/k36cuefTTwchdPHw7
+
+Faucets: https://workshop-faucet.vercel.app/faucets/fuji
+
+CCIP: https://dev.chain.link/products/ccip
+Add LINK on Fuji nn Metamask
+https://docs.chain.link/resources/link-token-contracts#fuji-testnet
+
+CCIP-BnM
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+Add CCIP-BnM to wallet
+Mint 1 CCIP-BnM Token
+
+CCIPTokenSenderFujiSepolia: 0x0365D89D67D62a7d6a5F2119Bd5CB26A4D446179 (Owner: 0xE5435Db2b26a59083788cA861e7f86CF7338CF64)
+- https://testnet.snowtrace.io/address/0x0365D89D67D62a7d6a5F2119Bd5CB26A4D446179
+- https://testnet.snowtrace.io/tx/0x4b8e555bdd2b26c50626ecccfd36ecd1d8ac88e2599d41b28d061c0b4f637a9a - Transaction
+- https://testnet.snowtrace.io/address/0x0365D89D67D62a7d6a5F2119Bd5CB26A4D446179 - Contract on Avalanche Fuji Tesnet
+Transfer LINK to contract: https://testnet.snowtrace.io/tx/0x4c44ff03e8564aa78661468be15a87c4614898894e61e2b63b7aa6a3120163eb
+Transfer CCIP-BnM to contract: https://testnet.snowtrace.io/tx/0xce993725b1e3b2fc0e40d7dec665042db196c3064330e79062e709c81654878d
+
+Transfer to sepólia:
+- Receiver: 0xE5435Db2b26a59083788cA861e7f86CF7338CF64
+- 0.01 ETH - 1000000000000000000 (https://eth-converter.com/)
+1. https://testnet.snowtrace.io/tx/0x8b143b90472b2eaca18138584e80baa0011b4fcf9dc3ecbe671d4d4ad7a055f0
+2. https://ccip.chain.link/msg/0x94867fc6b471381eccb7896cad807f401e354d7ad9d3374c665df2eb9009af87
+
+Adicionar CCIP-BnM (Sepolia) no Metamask
+https://docs.chain.link/ccip/test-tokens#mint-tokens-in-the-documentation
+
+------------------------------------------------------------
+## Aula 5 - https://www.youtube.com/watch?v=tWjbsnSGl6I
+------------------------------------------------------------
+Pad: https://pad.riseup.net/p/cl-pt-05
+Tira dúvidas.
+
+------------------------------------------------------------
+## Aula 6 - https://www.youtube.com/watch?v=jXtLZxuQix0
+------------------------------------------------------------
+Pad: https://pad.riseup.net/p/cl-pt-06
+Slides: https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+Form tasks: https://forms.gle/k36cuefTTwchdPHw7
+
+NFT Contract Address: 0x73009ee3cfbd25bbb6ede5b0d67a4e0f2bee5322
+    - https://sepolia.etherscan.io/address/0x73009ee3cfbd25bbb6ede5b0d67a4e0f2bee5322
+    - https://sepolia.etherscan.io/tx/0x78def3bf3af1700998c26c78e5e59d2ea2d93a02918bdea5ebebfbd132321bc3
+
+https://automation.chain.link/ - Esta automação roda para atualizar o último NFT mintado, uma vez que ele tenha sido executado, então não rodará até que seja mintado um novo NFT.
+1. Connect you wallet
+2. Register new Upkeep
+3. Custom logic
+4. Target contract address: The PhotoAlbum address 
+5. Upkeep name
+6. PhotoAlbum Automation
+7. Starting balance (LINK) 3
+8. Click on Register Upkeep
+
+https://testnets.opensea.io/collection/photo-album-chainlink-bootcamp-2024-198
+
+------------------------------------------------------------
+## Aula 7 - https://www.youtube.com/watch?v=EpWqMQaHV6I
+------------------------------------------------------------
+Pad: https://pad.riseup.net/p/cl-pt-07
+Slides: https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+Form tasks: https://docs.google.com/forms/d/e/1FAIpQLSeI_6QFddw3qMD50RC6guihcaGBJPENCBTLCAJKWvj04jnm0w/alreadyresponded
+
+Faucet
+https://workshop-faucet.vercel.app/faucets
+cllworkshop0101
+
+Exercicios do Bootcamp
+https://github.com/solangegueiros/chainlink-bootcamp-2024
+
+Collection Contract Address (CrossChainPriceNFT) - Sepolia: 
+    - Address: 0x28E82F5804eC81269F5DdC90027ad28a648cdf1A
+    - Deploy Transaction: https://sepolia.etherscan.io/tx/0x88ed529d5ddf06112db8d88ff56afd5309c154ae9071cf43caaa45470a6ac833
+    - Opensea Testnet: https://testnets.opensea.io/assets/sepolia/0x28e82f5804ec81269f5ddc90027ad28a648cdf1a/0
+
+Destination Contract Address (to Deploy, use the Collection Contract Address) (CrossDestinationMinter) - Sepolia: 
+    - Address: 0x311E147737D212531989EF42083693d64336D9cf
+    - Deploy Transaction: https://sepolia.etherscan.io/tx/0x25925f65ba5df29b774e5845abd9aab5f3a5736ef7cb8e99d321e9df3d962936
+    - Test Mint: https://sepolia.etherscan.io/tx/0x124e06bd4b405556dc784085fb8a1e425fc21fa714fca680ba2739940a8d482c
+    - Test Message: https://sepolia.etherscan.io/tx/0xabd60ef174d9b1044bde273d96c8875443a27c15bdc98f66183136bd7f82ae01
+
+CrossSourceMinter (to Deploy, use the Destination Minter Address) - Avalanche:
+    - Address: 0x1F914BF982B8b7b3250e5DEB501915575bF66Ee8
+    - Enviar 6 LINK para o CrossSourceMinter Address
+    - Mint on Sepolia na snowtrace: https://testnet.snowtrace.io/tx/0x523522cdc9a5121313691dabec40b078dbbbcffcfea4ffafe99f063cba0710e8
+    - Transaction na Chainlink CCIP Transaction: https://ccip.chain.link/msg/0xe699d12d0f12f9c74eede4fb5e9213b49c55b8d87ce39caadaabb554bb2f7cc7
+
+CrossSourceMinterMumbai (to Deploy, use the Destination Minter Address) - Polygon Mumbai:
+    - Address: 0xF7f78aB84c8292C46a2f4BE6b7ed7544eD2f8d49
+    - Enviar 6 LINK para o CrossSourceMinterMumbai Address
+    - Deploy Transaction: https://mumbai.polygonscan.com/tx/0x26a8730e250360ba54927f184fc5e3a29a49490a1100b08a084859cd4bef53a4
+    - Polygon Transaction: https://mumbai.polygonscan.com/tx/0xea5cad116bf6931b2d7ad58da5e7147e37cd12a4ecf5191f05ce8228294d1aa0
+    - CCIP Transaction: https://ccip.chain.link/msg/0xd9d7cf3e7ea9229500ceb7745c18dd67cccefd4937874c47f3c5ad427d18367c
+
+------------------------------------------------------------
+## Aula 8 - https://www.youtube.com/watch?v=vbVDNhGnDRI
+------------------------------------------------------------
+Aula 08
+https://pad.riseup.net/p/cl-pt-08
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+
+Tarefas
+https://forms.gle/k36cuefTTwchdPHw7
+
+https://dev.chain.link/products/vrf
+
+https://docs.chain.link/vrf/v2/security
+https://docs.chain.link/vrf/v2/best-practices
+https://docs.chain.link/vrf/v2/subscription/supported-networks#avalanche-fuji-testnet
+
+https://vrf.chain.link/
+- Create a subscription on Fuji
+- Name (Chainlink Bootcamp 2024 - JRN) - Subscription Id: 1040
+- Add funds - send 5 links to the subscription
+
+Runners Smart Contract: 
+    - Address: 0xED5B859700d8f30C0AE152D6F80b9d074c8Eb353
+    - Deploy Transaction: https://testnet.snowtrace.io/tx/0x0afe3ca887531d3840eb992dd9a9ae22b0b064c31e1faa08a9de60057272c667
+    - SafeMint - https://testnet.snowtrace.io/tx/0x6591936543a6ab1501fc2cfb67ffa5270f2746982c8917f43288b942e67fbbf2
+    - Run - https://testnet.snowtrace.io/tx/0x981e544ff94def7bd306adedee573f9d9904dd25c88fda8d0119f62d798822c5
+
+------------------------------------------------------------
+## Aula 9 - https://www.youtube.com/watch?v=tRDVuKskfv4
+------------------------------------------------------------
+Pad: https://pad.riseup.net/p/cl-pt-09
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+
+Tarefas
+https://forms.gle/k36cuefTTwchdPHw7
+
+https://blog.chain.link/ways-to-use-chainlink-functions/
+
+https://docs.chain.link/chainlink-functions
+
+https://usechainlinkfunctions.com/
+https://usechainlinkfunctions.com/posts/aviation-flight-status
+https://www.run-functions.app/
+
+https://functions.chain.link/playground
+
+https://www.npmjs.com/package/@chainlink/functions-toolkit
+
+https://functions.chain.link/fuji/
+
+Subscription: https://functions.chain.link/fuji/3173
+Smart Contract Address - GettingStartedFunctionsConsumer: 0x7E60096Ad44515b1d3f65390C90BCBa88902BA26
+
+Subscription: https://functions.chain.link/fuji/3173
+Smart Contract Address - TemperaturaFunctions: 0x03D2D2e00aAc6BCb17300EEDd89Eb6802Cc7AbFd
+
+Subscription: https://functions.chain.link/fuji/3173
+Smart Contract Address - WeatherFunctions: 0xeaa7d55AAD64b2993dAB74304Ef174aD1cAEcaDd
+
+------------------------------------------------------------
+## Aula 10 - https://www.youtube.com/watch?v=XZW00WXaJQU
+------------------------------------------------------------
+Pad: https://pad.riseup.net/p/cl-pt-10
+
+Slides
+https://docs.google.com/presentation/d/e/2PACX-1vQDouGb19sN3qGO2zDU5VZ-JXhgnJoqVCvykLT6tbOOqX7zXqwqrJxPciBohc66nsoGs_L_UB9QZUQs/pub?start=false&loop=false&delayms=3000
+
+Tarefas
+https://forms.gle/k36cuefTTwchdPHw7
+
+SubscriptionID: 3173
+Solange Contract Address: 0xd8110865f9714EEFAF4b96dd71C7f45ACa0158D6
+- Jether Rois: 0xE5435Db2b26a59083788cA861e7f86CF7338CF64,1705703157,Lorena,Lorena: ☀️ -5°C
